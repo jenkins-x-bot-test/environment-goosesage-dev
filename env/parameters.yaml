@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:goosesage/adminUser:password
+  username: admin
+dashboardAuthID: vault:goosesage:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:goosesage:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:goosesage/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:goosesage/prow:hmacToken
